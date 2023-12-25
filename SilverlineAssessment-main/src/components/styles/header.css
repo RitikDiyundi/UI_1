@@ -1,0 +1,42 @@
+.h__bg{
+    background-color: #000000;
+    padding: 3px 30px 3px 30px;
+    display: grid;
+    position: fixed;
+    top: 0;
+    grid-template-columns: 50px 1fr ;
+    width: 100vw;
+}
+
+.app__logo{
+    height: 60px;
+    width: 160px;
+    margin-left: 15%;
+}
+
+ul.no__bullets {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 20%;
+  padding-top: 1.5%;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+}
+ul li:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.h__content{
+    display: flex;
+    flex-direction: row;
+}
+
+.h__button{
+ background-image: linear-gradient(to right,#3C0B63, #C11BB9);
+ padding: 5px 15px 5px 15px;
+ border-radius: 10px;
+ cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.tokenomics__container{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10% 2% 10%;
+    background-image: url('../assets/bg/four.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100vw;
+}
+.tokenomics__heading{
+    text-align: center;
+    margin: 2% 0% 5% 0%;
+}
+.tokenomics__content__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

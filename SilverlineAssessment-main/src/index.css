@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+body{
+  background-image: radial-gradient(#3C0B63,#18002B);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

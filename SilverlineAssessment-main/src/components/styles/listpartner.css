@@ -1,0 +1,32 @@
+.lp__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 0% 15% 0% 15%;
+    background-image: url('../assets/bg/two.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100vw;
+}
+.lp__heading{
+    text-align: center;
+}
+.lp__content__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.lp__card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.lp__card p{
+    font-size: 16px;
+}

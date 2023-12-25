@@ -1,0 +1,45 @@
+.raodmap__container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-image: url('../assets/bg/four.svg'), url('../assets/bg/three.svg'),url('../assets/bg/two.svg');
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: top,center right,bottom;
+    background-size: 100vw,auto,100vw;
+}
+.roadmap__heading{
+ text-align: center;
+}
+.roadmap__content__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 0% 10%;
+    /* justify-content: flex-start; */
+}
+.roadmap__card__reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.roadmap__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.roadmap__card__right{
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(142, 0, 255, 0.2) 137.15%); */
+    /* border-radius: 15.2778px; */
+    padding: 5%;
+    flex: 1;
+    margin: 3%;
+}
+.roadmap__card__right__content{
+    padding: 10%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(142, 0, 255, 0.2) 137.15%); 
+    border-radius: 15.2778px;
+}
+.image__size{
+    width: 430.07px;
+    height: 462.15px;
+}

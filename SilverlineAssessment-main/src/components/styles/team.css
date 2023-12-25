@@ -1,0 +1,60 @@
+
+.team__container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/bg/five.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.team__heading{
+    text-align: center;
+    margin: 2% 0% 5%;
+}
+
+.team__content__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin: 0% 4% 0% 4%;
+}
+.team__card:nth-child(1){
+    background-image: url('../assets/teammember/firstFrame.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 3%;
+    transition: all 0.3s ease-in-out;
+}
+.team__card:nth-child(2){
+    background-image: url('../assets//teammember//secondframe.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 3%;
+    transition: all 0.3s ease-in-out;
+}
+.team__card:nth-child(3){
+    background-image: url('../assets//teammember//fifthframe.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 3%;
+    transition: all 0.3s ease-in-out;
+}
+.team__card:nth-child(4){
+    background-image: url('../assets//teammember//fourthframe.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 3%;
+    transition: all 0.3s ease-in-out;
+}
+.team__card:nth-child(5){
+    background-image: url('../assets//teammember//fifthframe.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 3%;
+    transition: all 0.3s ease-in-out;
+}
+.team__card:hover{
+    scale: 110%;
+}
+
+

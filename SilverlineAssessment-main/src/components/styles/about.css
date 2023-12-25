@@ -1,0 +1,33 @@
+.about__heading{
+    display: flex;
+    justify-content: center;
+}
+.about__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 100vw;
+    background-image: url('../assets/bg/two.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw;
+}
+
+.about__container__left{
+    padding: 3% 3% 3% 3%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(142, 0, 255, 0.15) 137.15%);
+    
+    margin: 0% 12% 0% 0%;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #8F4CC5, #00000000);
+    border-image-slice: 1;
+   background-image:linear-gradient(to bottom,#d9d9d943 , #ffffff05); 
+}
+
+.about__container__left p{
+    font-size: 18px;
+}
+
+.about__container__right img{
+    margin-left: -10%;
+}

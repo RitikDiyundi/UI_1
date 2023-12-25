@@ -1,0 +1,37 @@
+.faq__container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/bg/three.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px;
+}
+.faq__heading{
+    text-align: center;
+}
+.faq__content__container{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15% 3% 15%;
+    padding: 5%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(142, 0, 255, 0.15) 137.15%);
+    border-radius: 15.2778px;
+}
+.faq__field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #8F4DC4;
+    margin: 1%;
+    padding: 0% 4% 0% 2%;
+    align-items: center;
+}
+
+.faq__button{
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.faq__button:hover{
+    scale: 300%;
+    cursor: pointer;
+}

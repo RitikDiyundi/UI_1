@@ -1,0 +1,71 @@
+.footer__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(142, 0, 255, 0.15) 137.15%);
+}
+.footer__middle{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.footer__middle__content{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.footer__inside__middle p{
+    font-size: 12px;
+}
+.footer__start{
+    padding: 5% 5% 5% 10%;
+}
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+}
+.footer__inside__middle p:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.footer__right .footer__right__inside{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(142, 0, 255, 0.15) 137.15%);
+    border-radius: 6px;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+.footer__right .footer__right__inside input{
+    font-size: x-large;
+    background-color: transparent;
+    /* border: none; */
+      border-left: 2px solid #943CCA;
+      border-top: 2px solid #943CCA;
+      border-bottom: 2px solid #943CCA;
+      border-right: none;
+}
+.footer__right .footer__right__inside input:focus{
+    outline: none;
+}
+.footer__right .footer__right__inside input::placeholder{
+    color: rgb(192, 191, 191);
+    font-size: 15px;
+}
+.footer__right .footer__right__inside button{
+   padding: 6px;
+   background: linear-gradient(94.96deg, #14003E 0.95%, #943CCA 109.33%);
+    border-radius: 3px;
+   border-left: none;
+      border-top: 2px solid #943CCA;
+      border-bottom: 2px solid #943CCA;
+      border-right: none;
+    color: white;
+  
+    
+}
+.footer__right .footer__right__inside button:focus{
+    outline: none;
+}
